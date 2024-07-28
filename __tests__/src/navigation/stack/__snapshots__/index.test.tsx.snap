@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StackNavigator renders the BottomTabs screen 1`] = `
+[
+  <div>
+    BottomTabNavigator Component
+  </div>,
+  <div>
+    MovieDetails Component
+  </div>,
+]
+`;
+
+exports[`StackNavigator renders the MovieDetails screen 1`] = `
+[
+  <div>
+    BottomTabNavigator Component
+  </div>,
+  <div>
+    MovieDetails Component
+  </div>,
+]
+`;

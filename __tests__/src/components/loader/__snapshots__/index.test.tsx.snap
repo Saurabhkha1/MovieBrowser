@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loader Component renders correctly with custom color 1`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "justifyContent": "center",
+    }
+  }
+>
+  <ActivityIndicator
+    color="red"
+    size="large"
+  />
+</View>
+`;
+
+exports[`Loader Component renders correctly with default props 1`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "justifyContent": "center",
+    }
+  }
+>
+  <ActivityIndicator
+    color="#000"
+    size="large"
+  />
+</View>
+`;
+
+exports[`Loader Component renders correctly with full size 1`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "height": "100%",
+      "justifyContent": "center",
+    }
+  }
+>
+  <ActivityIndicator
+    color="#000"
+    size="large"
+  />
+</View>
+`;
+
+exports[`Loader Component renders correctly with normal size and custom color 1`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "justifyContent": "center",
+    }
+  }
+>
+  <ActivityIndicator
+    color="blue"
+    size="large"
+  />
+</View>
+`;

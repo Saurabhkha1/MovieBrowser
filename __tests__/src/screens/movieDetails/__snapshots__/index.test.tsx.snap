@@ -1,0 +1,137 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MovieDetails renders correctly 1`] = `
+[
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "backgroundColor": "#ccc",
+        "borderRadius": 30,
+        "height": 40,
+        "justifyContent": "center",
+        "left": 5,
+        "opacity": 1,
+        "position": "absolute",
+        "top": 5,
+        "width": 40,
+        "zIndex": 1,
+      }
+    }
+  >
+    <MockedFontAwesomeIcon
+      icon={
+        {
+          "icon": [
+            320,
+            512,
+            [
+              8249,
+            ],
+            "f104",
+            "M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z",
+          ],
+          "iconName": "angle-left",
+          "prefix": "fas",
+        }
+      }
+      size={25}
+    />
+  </View>,
+  <RCTScrollView
+    style={
+      {
+        "backgroundColor": "#fff",
+        "flex": 1,
+      }
+    }
+  >
+    <View>
+      <Image
+        resizeMode="cover"
+        source={
+          {
+            "uri": "https://image.tmdb.org/t/p/w500/test-poster.jpg",
+          }
+        }
+        style={
+          {
+            "borderBottomColor": "#ccc",
+            "borderBottomWidth": 1,
+            "height": 500,
+            "width": "100%",
+          }
+        }
+      />
+      <View
+        style={
+          {
+            "padding": 15,
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "fontSize": 24,
+              "fontWeight": "bold",
+              "marginBottom": 10,
+            }
+          }
+        >
+          Test Movie
+        </Text>
+        <Text
+          style={
+            {
+              "color": "#999",
+              "fontSize": 18,
+              "marginBottom": 15,
+            }
+          }
+        >
+          2023-01-01
+        </Text>
+        <Text
+          style={
+            {
+              "color": "#000",
+              "fontSize": 16,
+              "lineHeight": 24,
+            }
+          }
+        >
+          Test movie overview
+        </Text>
+      </View>
+    </View>
+  </RCTScrollView>,
+]
+`;

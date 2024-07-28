@@ -1,0 +1,229 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MovieComponent renders correctly with different movie prop values 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "backgroundColor": undefined,
+      "borderRadius": 10,
+      "height": 400,
+      "marginBottom": 10,
+      "marginRight": 10,
+      "opacity": 1,
+      "width": NaN,
+    }
+  }
+>
+  <Image
+    source={
+      {
+        "uri": "https://image.tmdb.org/t/p/w500/anotherpath.jpg",
+      }
+    }
+    style={
+      {
+        "borderRadius": 10,
+        "height": "70%",
+        "width": "100%",
+      }
+    }
+  />
+  <View
+    style={
+      {
+        "padding": 5,
+      }
+    }
+  >
+    <Text
+      ellipsizeMode="tail"
+      numberOfLines={2}
+      style={
+        {
+          "color": "#000",
+          "fontSize": 15,
+          "fontWeight": "500",
+          "marginBottom": 10,
+        }
+      }
+    >
+      Another Test Movie
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#000",
+          "fontSize": 15,
+        }
+      }
+    >
+      Release Date:
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#000",
+          "fontSize": 15,
+          "marginBottom": 10,
+        }
+      }
+    >
+      2021-12-12
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#000",
+          "fontSize": 15,
+          "marginBottom": 10,
+        }
+      }
+    >
+      Rating: 
+      7.3
+      /10
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`MovieComponent renders correctly with given movie 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "backgroundColor": undefined,
+      "borderRadius": 10,
+      "height": 400,
+      "marginBottom": 10,
+      "marginRight": 10,
+      "opacity": 1,
+      "width": NaN,
+    }
+  }
+>
+  <Image
+    source={
+      {
+        "uri": "https://image.tmdb.org/t/p/w500/testpath.jpg",
+      }
+    }
+    style={
+      {
+        "borderRadius": 10,
+        "height": "70%",
+        "width": "100%",
+      }
+    }
+  />
+  <View
+    style={
+      {
+        "padding": 5,
+      }
+    }
+  >
+    <Text
+      ellipsizeMode="tail"
+      numberOfLines={2}
+      style={
+        {
+          "color": "#000",
+          "fontSize": 15,
+          "fontWeight": "500",
+          "marginBottom": 10,
+        }
+      }
+    >
+      Test Movie
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#000",
+          "fontSize": 15,
+        }
+      }
+    >
+      Release Date:
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#000",
+          "fontSize": 15,
+          "marginBottom": 10,
+        }
+      }
+    >
+      2022-01-01
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#000",
+          "fontSize": 15,
+          "marginBottom": 10,
+        }
+      }
+    >
+      Rating: 
+      8.5
+      /10
+    </Text>
+  </View>
+</View>
+`;

@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`IconComponent renders correctly with default props 1`] = `null`;
+
+exports[`IconComponent renders correctly with size and color props 1`] = `null`;
